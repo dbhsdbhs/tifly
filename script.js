@@ -10,7 +10,7 @@ setInterval(() => {
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
   const formData = new FormData(this);
-  fetch('https://script.google.com/macros/s/YOUhttps://script.google.com/macros/s/AKfycbwh7SpTr7Pd0T669cC9BNhbMFLTIJp67kNjVlpp_4fjKifUCVU9no3b8WOVMbKDQsj9/execR_SCRIPT_ID/exec', {
+  fetch('https://script.google.com/macros/library/d/1-QbCrypE7BYXUNgg3CUL8hw7izs9NP1fYPs0FOdUutj7F_zMq6W0llfQ/1cR_SCRIPT_ID/exec', {
     method: 'POST',
     body: formData
   })
